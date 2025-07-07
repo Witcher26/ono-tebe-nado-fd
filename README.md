@@ -1,1 +1,1 @@
-https://github.com/Witcher26/ono-tebe-nado
+https://github.com/Witcher26/ono-tebe-nado-fd

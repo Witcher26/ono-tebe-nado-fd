@@ -16,6 +16,7 @@
 .header__links-list-item {
     font-size: 18px;
     list-style: circle;
+    padding-bottom: 15px;
 }
 
 .header__links-list-item_no-bullit {
@@ -74,7 +75,7 @@
 .cover__title {
     position: relative;
     z-index: 1;
-    margin-bottom: 135px;
+    margin-bottom: 110px;
     color: #fff;
     font-size: 100px;
     line-height: 1.15;
@@ -84,20 +85,46 @@
 
 .aligned-text {
     display: block;
-    margin-top: 20px;
     line-height: 1;
 }
 
 .aligned-text_center {
     text-align: center;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.text-position {
+    max-width: 50px;
+}
+
+.aligned-text_center .letter_second {
+    margin-left: -50px;
 }
 
 .aligned-text_right {
     text-align: right;
+    margin: 35px -10px 0 0;
 }
 
 .letter-spacing-extended {
-    letter-spacing: 0.6em;
+    letter-spacing: 0.25em;
+}
+
+.remove-spacing {
+    letter-spacing: 0.04em;
+}
+
+.remove-spacing-right {
+    letter-spacing: 0.2em;
+}
+
+.letter-spacing-extended-custom {
+    letter-spacing: 0.01px;
+}
+
+.letter-spacing-extended_position {
+    margin-left: -50px;
 }
 
 .cover__description {
@@ -107,6 +134,7 @@
     justify-content: flex-end;
     align-items: center;
     gap: 78px;
+    left: -30px;
 }
 
 .cover__description-text {
@@ -124,13 +152,15 @@
     font-size: 22px;
     text-transform: uppercase;
     background-color: transparent;
+    position: relative;
+    right: -30px;
 }
 
 .bet-button:hover {
     background-color: rgba(238, 238, 238, .3);
 }
 .lots {
-    padding: 192px 50px 0;
+    padding: 185px 25px 0;
 }
 
 .lots__heading {
@@ -150,8 +180,9 @@
 
 .lost__card-list-item {
     flex-grow: 1;
-    width: 430px;
+    width: 300px;
     min-height: 450px;
+    height: 596px;
 }
 
 .card-link {
@@ -180,6 +211,10 @@
     text-transform: uppercase;
 }
 
+.card__text {
+    font-size: 20px;
+}
+
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
 }
@@ -204,10 +239,10 @@
 
 .about {
     display: grid;
-    grid-template-columns: 430px 1fr;
+    grid-template-columns: 345px 1fr;
     justify-content: space-between;
     gap: 25px;
-    padding: 180px 50px;
+    padding: 153px 30px 180px 15px;
 }
 
 .about__logo {

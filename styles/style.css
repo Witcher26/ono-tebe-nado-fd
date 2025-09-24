@@ -5,7 +5,11 @@
     /* display: flex;
     justify-content: space-between; */
     align-items: center;
-    padding: 92px 50px 79px;
+    padding: 92px 50px 83px;
+}
+
+.header_menu {
+    padding-top: 10px;
 }
 
 .header__links-list {
@@ -38,7 +42,7 @@
 }
 
 .header__logo {
-    width: 148px;
+    width: 140px;
 }
 
 .address {
@@ -61,7 +65,7 @@
 
 .cover {
     position: relative;
-    padding: 178px 50px 50px;
+    padding: 180px 50px 50px;
     background-image: url(../images/cover.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -198,6 +202,7 @@
 
 .card__text {
     font-size: 20px;
+    z-index: 9999;
 }
 
 .card_type_book {
@@ -264,7 +269,7 @@
     padding: 0 50px 90px;
 }
 
-.address p {
+.custom-width {
     width: 250px;
 }
 

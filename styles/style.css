@@ -118,7 +118,6 @@
     justify-content: flex-end;
     align-items: center;
     gap: 78px;
-    left: -30px;
 }
 
 .cover__description-text {
@@ -126,6 +125,7 @@
     font-size: 22px;
     text-transform: uppercase;
     word-spacing: 18px;
+    padding-right: 30px;
 }
 
 .bet-button {
@@ -137,7 +137,6 @@
     text-transform: uppercase;
     background-color: transparent;
     position: relative;
-    right: -30px;
 }
 
 .bet-button:hover {
@@ -166,8 +165,7 @@
 .lost__card-list-item {
     flex-grow: 1;
     width: 300px;
-    min-height: 450px;
-    height: 596px;
+    min-height: 596px;
 }
 
 .card-link {
